@@ -1,0 +1,73 @@
+.card-largura {
+    max-width: 18rem;
+}
+
+.imagem-carrossel-um {
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 400px;
+}
+
+.imagem-carrossel-dois {
+    object-fit: cover;
+    height: 400px;
+}
+
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+}
+
+.cor-especial {
+    color: darkred!important;
+}
+
+.botao-cor-especial {
+    background-color: darkred;
+    color: white;
+}
+
+.borda-cor-especial {
+    border-color: darkred;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 200px;
+}
+
+.fonte-subtitulo {
+    margin-left: 3rem;
+    font-size: 1.25rem;
+}
+
+.texto-branco {
+    color: white!important;
+}
+
+.card-livre-imagem {
+    max-width: 15rem!important;
+}
+
+.espacamento-do-form{
+    margin-bottom: 1rem;
+}
+
+.filtro-label {
+    margin-left: 3rem;
+}
+
+.tamanho-imput{
+    width: 20rem;
+}
+
+.espaco-entre-botoes {
+    margin-right: .3rem;
+}
+
+.efeito-botao:hover {
+    color: #212529!important;
+}
+
+.invisivel {
+    display: none;
+}

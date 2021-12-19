@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tarefas</title>
+    <link rel="icon" href="assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand fonte-titulo cor-especial" href="index.html" title="Home Tarefas">Tarefas</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <li><a class="nav-item nav-link active" href="index.html">Todas<span
+                                class="sr-only">(current)</span></a></li>
+                    <li><a class="nav-item nav-link" href="escola.html">Escola</a></li>
+                    <li><a class="nav-item nav-link" data-toggle="modal" data-target="#modal-contato">Adicionar</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="titulo">
+            <h2 class="text-center fonte-titulo cor-especial mt-5 pt-5">Todas as tarefas diárias aqui.</h2>
+            <p class="text-center text-secondary pb-4">Ajudam você a se organizar, ganhar tempo e praticidade</p>
+        </section>
+
+        <div class="filtro-label">
+            <label for="filtro-dia" class="form-label">Filtrar dia da semana:</label>
+            <input class="form-control espacamento-do-form tamanho-imput" list="TerceiroDataListOptions" id="filtro-dia"
+                placeholder="Clique para filtrar o dia da semana">
+            <datalist id="TerceiroDataListOptions">
+                <option value="Segunda">
+                <option value="Terça">
+                <option value="Quarta">
+                <option value="Quinta">
+                <option value="Sexta">
+                <option value="Sábado">
+                <option value="Domingo">
+                <option value="Indefinidos">
+            </datalist>
+        </div>
+
+        <section class="dia">
+            <h3 class="fonte-subtitulo fonte-titulo cor-especial">Segunda:</h3>
+
+            <section class="container-fluid bg-light">
+                <article class="card m-4" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/img/concluido.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Livre!!!</h5>
+                                <p class="card-text">Não há nada programado para esse dia.</p>
+                                <p class="card-text"><small class="text-muted">Por segurança, confira as atividades.</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </section>
+
+        <section class="dia">
+            <h3 class="fonte-subtitulo fonte-titulo cor-especial">Terça:</h3>
+
+            <section class="container-fluid bg-light">
+                <article class="card m-4" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/img/concluido.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Livre!!!</h5>
+                                <p class="card-text">Não há nada programado para esse dia.</p>
+                                <p class="card-text"><small class="text-muted">Por segurança, confira as atividades.</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </section>
+
+        <section class="dia">
+            <h3 class="fonte-subtitulo fonte-titulo cor-especial">Quarta:</h3>
+
+            <section class="container-fluid bg-light">
+                <article class="card m-4" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/img/concluido.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Livre!!!</h5>
+                                <p class="card-text">Não há nada programado para esse dia.</p>
+                                <p class="card-text"><small class="text-muted">Por segurança, confira as atividades.</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </section>
+
+        <section class="dia">
+            <h3 class="fonte-subtitulo fonte-titulo cor-especial">Quinta:</h3>
+
+            <section class="container-fluid bg-light">
+                <article class="card m-4" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/img/concluido.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Livre!!!</h5>
+                                <p class="card-text">Não há nada programado para esse dia.</p>
+                                <p class="card-text"><small class="text-muted">Por segurança, confira as atividades.</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </section>
+
+        <section class="dia">
+            <h3 class="fonte-subtitulo fonte-titulo cor-especial">Sexta:</h3>
+
+            <section class="container-fluid bg-light">
+                <article class="card m-4" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/img/concluido.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Livre!!!</h5>
+                                <p class="card-text">Não há nada programado para esse dia.</p>
+                                <p class="card-text"><small class="text-muted">Por segurança, confira as atividades.</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </section>
+
+        <section class="dia">
+            <h3 class="fonte-subtitulo fonte-titulo cor-especial">Sábado:</h3>
+
+            <section class="container-fluid bg-light">
+                <article class="card m-4" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/img/concluido.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Livre!!!</h5>
+                                <p class="card-text">Não há nada programado para esse dia.</p>
+                                <p class="card-text"><small class="text-muted">Por segurança, confira as atividades.</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </section>
+
+        <section class="dia">
+            <h3 class="fonte-subtitulo fonte-titulo cor-especial">Domingo:</h3>
+
+            <section class="container-fluid bg-light">
+                <article class="card m-4" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/img/concluido.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Livre!!!</h5>
+                                <p class="card-text">Não há nada programado para esse dia.</p>
+                                <p class="card-text"><small class="text-muted">Por segurança, confira as atividades.</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </section>
+
+        <section class="dia">
+            <h3 class="fonte-subtitulo fonte-titulo cor-especial">Indefinidos:</h3>
+
+            <section class="container-fluid bg-light">
+                <article class="card m-4" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/img/concluido.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Livre!!!</h5>
+                                <p class="card-text">Não há nada programado para esse dia.</p>
+                                <p class="card-text"><small class="text-muted">Por segurança, confira as atividades.</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </section>
+
+    </main>
+    <footer class="bg-secondary p-3">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <p class="col-md-4 mb-0 text-muted texto-branco">© 2021 Maria Eduarda</p>
+
+                <ul class="nav col-md-4 justify-content-end">
+                    <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted texto-branco">Todas</a>
+                    </li>
+                    <li class="nav-item"><a href="escola.html" class="nav-link px-2 text-muted texto-branco">Escola</a>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted texto-branco">Tarefa</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted texto-branco">Tarefa</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted texto-branco">Tarefa</a></li>
+                </ul>
+            </footer>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="modal-contato" tabindex="-1" role="dialog" aria-labelledby="modal-contatoLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <dialog class="modal-content">
+                <header class="modal-header">
+                    <h5 class="modal-title" id="modal-contatoLabel">Adicione uma tarefa</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </header>
+                <main class="modal-body">
+                    <form id="form-adiciona-tarefa">
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Nome da tarefa</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput"
+                                placeholder="Insira o nome da tarefa" name="nomeTarefa">
+                        </div>
+                        <label for="exampleDataList" class="form-label">Matéria ou tipo</label>
+                        <input class="form-control espacamento-do-form" list="segundoDataListOptions"
+                            id="exampleDataList" placeholder="Clique para selecionar a matéria ou tipo"
+                            name="tipoTarefa">
+                        <datalist id="segundoDataListOptions">
+                            <option value="Escola">
+                            <option value="Tarefa diária">
+                            <option value="JW">
+                            <option value="Idiomas">
+                            <option value="Tarefas de casa">
+                            <option value="Fluorplanner">
+                            <option value="Front-End">
+                            <option value="Educação Financeira">
+                            <option value="Física">
+                            <option value="História">
+                            <option value="Química">
+                            <option value="Educação Física">
+                            <option value="Biologia">
+                            <option value="Inglês">
+                            <option value="Sociologia">
+                            <option value="História">
+                            <option value="Artes">
+                            <option value="Geografia">
+                            <option value="Matemática">
+                            <option value="Filosofia">
+                            <option value="Português">
+                        </datalist>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Data de conclusão</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Insira a data de conclusão da tarefa" name="dataTarefa">
+                        </div>
+                        <label for="exampleDataList" class="form-label">Estado atual da tarefa</label>
+                        <input class="form-control espacamento-do-form" list="datalistOptions" id="exampleDataList"
+                            placeholder="Clique para selecionar o estado atual" name="estadoTarefa">
+                        <datalist id="datalistOptions">
+                            <option value="Item">
+                            <option value="Atrasado">
+                            <option value="Em andamento">
+                            <option value="Concluído">
+                            <option value="Talvez">
+                            <option value="Travado">
+                        </datalist>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput2">Link da tarefa</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput2"
+                                placeholder="Insira o link da tarefa" name="linkTarefa">
+                        </div>
+                    </form>
+                </main>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn botao-cor-especial" id="adicionar-tarefa"
+                        data-dismiss="modal">Adicionar</button>
+                </footer>
+            </dialog>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src=""></script>
+
+    <script src="assets/js/formAdd.js"></script>
+    <script src="assets/js/concluir.js"></script>
+    <script src="assets/js/filtro.js"></script>
+
+</body>
+
+</html>
